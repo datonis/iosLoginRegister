@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC85ADE1798EC210086978E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC85ADD1798EC210086978E /* UIKit.framework */; };
+		CEC85AE01798EC210086978E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC85ADF1798EC210086978E /* Foundation.framework */; };
+		CEC85AE21798EC210086978E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC85AE11798EC210086978E /* CoreGraphics.framework */; };
+		CEC85AE81798EC210086978E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEC85AE61798EC210086978E /* InfoPlist.strings */; };
+		CEC85AEA1798EC210086978E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC85AE91798EC210086978E /* main.m */; };
+		CEC85AEE1798EC210086978E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC85AED1798EC210086978E /* AppDelegate.m */; };
+		CEC85AF01798EC210086978E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC85AEF1798EC210086978E /* Default.png */; };
+		CEC85AF21798EC210086978E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC85AF11798EC210086978E /* Default@2x.png */; };
+		CEC85AF41798EC210086978E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC85AF31798EC210086978E /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEC85ADA1798EC210086978E /* IOSLoginRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSLoginRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC85ADD1798EC210086978E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEC85ADF1798EC210086978E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEC85AE11798EC210086978E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEC85AE51798EC210086978E /* IOSLoginRegister-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSLoginRegister-Info.plist"; sourceTree = "<group>"; };
+		CEC85AE71798EC210086978E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEC85AE91798EC210086978E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC85AEB1798EC210086978E /* IOSLoginRegister-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSLoginRegister-Prefix.pch"; sourceTree = "<group>"; };
+		CEC85AEC1798EC210086978E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC85AED1798EC210086978E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC85AEF1798EC210086978E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CEC85AF11798EC210086978E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CEC85AF31798EC210086978E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC85AD71798EC210086978E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC85ADE1798EC210086978E /* UIKit.framework in Frameworks */,
+				CEC85AE01798EC210086978E /* Foundation.framework in Frameworks */,
+				CEC85AE21798EC210086978E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC85AD11798EC210086978E = {
+			isa = PBXGroup;
+			children = (
+				CEC85AE31798EC210086978E /* IOSLoginRegister */,
+				CEC85ADC1798EC210086978E /* Frameworks */,
+				CEC85ADB1798EC210086978E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC85ADB1798EC210086978E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC85ADA1798EC210086978E /* IOSLoginRegister.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC85ADC1798EC210086978E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC85ADD1798EC210086978E /* UIKit.framework */,
+				CEC85ADF1798EC210086978E /* Foundation.framework */,
+				CEC85AE11798EC210086978E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC85AE31798EC210086978E /* IOSLoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				CEC85AEC1798EC210086978E /* AppDelegate.h */,
+				CEC85AED1798EC210086978E /* AppDelegate.m */,
+				CEC85AE41798EC210086978E /* Supporting Files */,
+			);
+			path = IOSLoginRegister;
+			sourceTree = "<group>";
+		};
+		CEC85AE41798EC210086978E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC85AE51798EC210086978E /* IOSLoginRegister-Info.plist */,
+				CEC85AE61798EC210086978E /* InfoPlist.strings */,
+				CEC85AE91798EC210086978E /* main.m */,
+				CEC85AEB1798EC210086978E /* IOSLoginRegister-Prefix.pch */,
+				CEC85AEF1798EC210086978E /* Default.png */,
+				CEC85AF11798EC210086978E /* Default@2x.png */,
+				CEC85AF31798EC210086978E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC85AD91798EC210086978E /* IOSLoginRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC85AF71798EC210086978E /* Build configuration list for PBXNativeTarget "IOSLoginRegister" */;
+			buildPhases = (
+				CEC85AD61798EC210086978E /* Sources */,
+				CEC85AD71798EC210086978E /* Frameworks */,
+				CEC85AD81798EC210086978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSLoginRegister;
+			productName = IOSLoginRegister;
+			productReference = CEC85ADA1798EC210086978E /* IOSLoginRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC85AD21798EC210086978E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = xujiangtao;
+			};
+			buildConfigurationList = CEC85AD51798EC210086978E /* Build configuration list for PBXProject "IOSLoginRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC85AD11798EC210086978E;
+			productRefGroup = CEC85ADB1798EC210086978E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC85AD91798EC210086978E /* IOSLoginRegister */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC85AD81798EC210086978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC85AE81798EC210086978E /* InfoPlist.strings in Resources */,
+				CEC85AF01798EC210086978E /* Default.png in Resources */,
+				CEC85AF21798EC210086978E /* Default@2x.png in Resources */,
+				CEC85AF41798EC210086978E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC85AD61798EC210086978E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC85AEA1798EC210086978E /* main.m in Sources */,
+				CEC85AEE1798EC210086978E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEC85AE61798EC210086978E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC85AE71798EC210086978E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC85AF51798EC210086978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC85AF61798EC210086978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC85AF81798EC210086978E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSLoginRegister/IOSLoginRegister-Prefix.pch";
+				INFOPLIST_FILE = "IOSLoginRegister/IOSLoginRegister-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEC85AF91798EC210086978E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSLoginRegister/IOSLoginRegister-Prefix.pch";
+				INFOPLIST_FILE = "IOSLoginRegister/IOSLoginRegister-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC85AD51798EC210086978E /* Build configuration list for PBXProject "IOSLoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC85AF51798EC210086978E /* Debug */,
+				CEC85AF61798EC210086978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC85AF71798EC210086978E /* Build configuration list for PBXNativeTarget "IOSLoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC85AF81798EC210086978E /* Debug */,
+				CEC85AF91798EC210086978E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC85AD21798EC210086978E /* Project object */;
+}
